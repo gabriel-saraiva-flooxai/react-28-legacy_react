@@ -1,8 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Component from "./component";
+import Segundo, { Primeiro } from "./component";
 
 ReactDOM.render(
-    <Component value='Valor Passado por props' />,
-document.getElementById('app'))
+    <div>
+        <Primeiro />
+        <Segundo />
+    </div>
+, document.getElementById('app'))
